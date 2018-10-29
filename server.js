@@ -8,7 +8,7 @@ app.listen(process.env.PORT || 8080);
 
 // Path location stratogy
 app.get('/*',(req,res) =>{
-	res.sentFile(path.join(__dirname + '/dist/index.html'));
+	res.sentFile(path.join(__dirname + '/dist/shopecorner12'));
 });
 
 console.log("Console listen!");
