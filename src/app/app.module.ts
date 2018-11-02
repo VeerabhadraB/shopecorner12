@@ -19,7 +19,7 @@ import { ProductsService } from "./products.service";
     HttpClientModule
   ],
   providers: [
-  	ProductsService,
+  	ProductsService00,
   ],
   bootstrap: [AppComponent]
 })
